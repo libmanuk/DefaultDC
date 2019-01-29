@@ -90,6 +90,19 @@
     {
         $post = $args['post'];
         set_option('default_lang_page_statement',$post['lang_page_statement']);
+        set_option('default_publisher_page_statement',$post['publisher_page_statement']);
+        set_option('default_title_page_statement',$post['title_page_statement']);
+        set_option('default_creator_page_statement',$post['creator_page_statement']);
+        set_option('default_contributor_page_statement',$post['contributor_page_statement']);
+        set_option('default_description_page_statement',$post['description_page_statement']);
+        set_option('default_type_page_statement',$post['type_page_statement']);
+        set_option('default_format_page_statement',$post['format_page_statement']);
+        set_option('default_coverage_page_statement',$post['coverage_page_statement']);
+        set_option('default_subject_page_statement',$post['subject_page_statement']);
+        set_option('default_date_page_statement',$post['date_page_statement']);
+        set_option('default_source_page_statement',$post['source_page_statement']);
+        set_option('default_relation_page_statement',$post['relation_page_statement']);
+        set_option('default_rights_page_statement',$post['rights_page_statement']);
     }
     
     public function hookAdminFooter(){
