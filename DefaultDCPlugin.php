@@ -112,19 +112,19 @@
         if ((state = "items") || (state = "items edit")) {
 	
         var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
-        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-50-0-text");
+        var dcInput44 = document.getElementById("Elements-40-0-text");
+        var dcInput44 = document.getElementById("Elements-48-0-text");
+        var dcInput44 = document.getElementById("Elements-38-0-text");
+        var dcInput44 = document.getElementById("Elements-46-0-text");
+        var dcInput44 = document.getElementById("Elements-47-0-text");
+        var dcInput44 = document.getElementById("Elements-42-0-text");
+        var dcInput44 = document.getElementById("Elements-51-0-text");
+        var dcInput44 = document.getElementById("Elements-45-0-text");
+        var dcInput44 = document.getElementById("Elements-37-0-text");
+        var dcInput44 = document.getElementById("Elements-39-0-text");
+        var dcInput44 = document.getElementById("Elements-41-0-text");
+        var dcInput44 = document.getElementById("Elements-49-0-text");
         if (dcInput44 && dcInput44.value) {
             console.log("Dublin Core Language field has a value!");
         } else  {
