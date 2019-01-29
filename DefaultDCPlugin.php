@@ -52,7 +52,7 @@
 	
     function hookDefineRoutes($args)
     {
-    $router = $args['router'];
+        $router = $args['router'];
     }
 	
     public function hookConfigForm() 
