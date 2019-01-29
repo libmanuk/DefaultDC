@@ -5,11 +5,11 @@ $view = get_view();
 
 contributor
 
-coverage
+coverage (http://www.getty.edu/research/tools/vocabularies/tgn/index.html)
 
 creator
 
-date
+date (https://www.w3.org/TR/NOTE-datetime)
 
 description
 
@@ -43,5 +43,5 @@ subject
 title
 
 type (Collection , Dataset , Event , Image , InteractiveResource , MovingImage , PhysicalObject , Service , Software , Sound , StillImage , Text)
-
+http://dublincore.org/documents/dcmi-type-vocabulary/
 
