@@ -66,8 +66,7 @@ if ((state = "items") || (state = "items edit")) {
         document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
         });
         }
-} else {
-}
+} 
 
         </script>
 
