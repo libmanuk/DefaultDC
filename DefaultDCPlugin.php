@@ -54,10 +54,10 @@
     }
     
     public function hookAdminFooter(){
-        $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; 
-        if ((strpos($actual_link, '/items/edit/') !== false) | (strpos($actual_link, '/items/add') !== false)) {
-    	?>
+
     	<script>
+	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
+if ((state = "items") OR (state = "items edit")) {
         var myInput = document.getElementById("Elements-44-0-text");
         if (myInput && myInput.value) {
             console.log("My input has a value!");
@@ -66,10 +66,10 @@
         document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
         });
         }
+} else {
+}
+
         </script>
-        <?php
-        } elseif ((strpos($actual_link, '/items/edit/') == false) | (strpos($actual_link, '/items/add') == false)) {
-        //do nothing
-        }    
+
     }
 }
