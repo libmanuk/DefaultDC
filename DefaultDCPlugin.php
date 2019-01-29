@@ -43,6 +43,19 @@
     public function hookInstall()
     {
         set_option('default_lang_page_statement', DEFAULT_LANG_PAGE_STATEMENT);
+        set_option('default_publisher_page_statement', DEFAULT_PUBLISHER_PAGE_STATEMENT);
+        set_option('default_title_page_statement', DEFAULT_TITLE_PAGE_STATEMENT);
+        set_option('default_creator_page_statement', DEFAULT_CREATOR_PAGE_STATEMENT);
+        set_option('default_contributor_page_statement', DEFAULT_CONTRIBUTOR_PAGE_STATEMENT);
+        set_option('default_description_page_statement', DEFAULT_DESCRIPTION_PAGE_STATEMENT);
+        set_option('default_type_page_statement', DEFAULT_TYPE_PAGE_STATEMENT);
+        set_option('default_format_page_statement', DEFAULT_FORMAT_PAGE_STATEMENT);
+        set_option('default_coverage_page_statement', DEFAULT_COVERAGE_PAGE_STATEMENT);
+        set_option('default_subject_page_statement', DEFAULT_SUBJECT_PAGE_STATEMENT);
+        set_option('default_date_page_statement', DEFAULT_DATE_PAGE_STATEMENT);
+        set_option('default_source_page_statement', DEFAULT_SOURCE_PAGE_STATEMENT);
+        set_option('default_relation_page_statement', DEFAULT_RELATION_PAGE_STATEMENT);
+        set_option('default_rights_page_statement', DEFAULT_RIGHTS_PAGE_STATEMENT);
     }
     
     public function hookUninstall()
