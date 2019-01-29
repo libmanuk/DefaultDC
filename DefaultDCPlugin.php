@@ -57,7 +57,7 @@
 
     	<script>
 	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
-if ((state = "items") OR (state = "items edit")) {
+if ((state = "items") || (state = "items edit")) {
         var myInput = document.getElementById("Elements-44-0-text");
         if (myInput && myInput.value) {
             console.log("My input has a value!");
