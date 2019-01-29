@@ -12,7 +12,7 @@
  */
  
     // Define Constants.
-    define('DEFAULT_LANG_PAGE_STATEMENT', 'Eng');
+    define('DEFAULT_LANG_PAGE_STATEMENT', '');
     define('DEFAULT_PUBLISHER_PAGE_STATEMENT', '');
     define('DEFAULT_TITLE_PAGE_STATEMENT', '');
     define('DEFAULT_CREATOR_PAGE_STATEMENT', '');
@@ -70,7 +70,7 @@
 
     	<script>
 	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
-if ((state = "items") || (state = "items edit")) {
+        if ((state = "items") || (state = "items edit")) {
 	
         var dcInput44 = document.getElementById("Elements-44-0-text");
         if (dcInput44 && dcInput44.value) {
@@ -81,8 +81,7 @@ if ((state = "items") || (state = "items edit")) {
         });
         }
 	
-} 
-
+        } 
         </script>
 
     }
