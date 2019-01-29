@@ -48,6 +48,19 @@
     public function hookUninstall()
     {
         delete_option('default_lang_page_statement');
+        delete_option('default_publisher_page_statement');
+        delete_option('default_title_page_statement');
+        delete_option('default_creator_page_statement');
+        delete_option('default_contributor_page_statement');
+        delete_option('default_description_page_statement');
+        delete_option('default_type_page_statement');
+        delete_option('default_format_page_statement');
+        delete_option('default_coverage_page_statement');
+        delete_option('default_subject_page_statement');
+        delete_option('default_date_page_statement');
+        delete_option('default_source_page_statement');
+        delete_option('default_relation_page_statement');
+        delete_option('default_rights_page_statement');
     }
 	
     function hookDefineRoutes($args)
