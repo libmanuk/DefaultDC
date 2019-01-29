@@ -112,6 +112,19 @@
         if ((state = "items") || (state = "items edit")) {
 	
         var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        var dcInput44 = document.getElementById("Elements-44-0-text");
         if (dcInput44 && dcInput44.value) {
             console.log("Dublin Core Language field has a value!");
         } else  {
