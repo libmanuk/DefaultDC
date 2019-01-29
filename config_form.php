@@ -39,5 +39,6 @@ subject
 
 title
 
-type
+type (Collection , Dataset , Event , Image , InteractiveResource , MovingImage , PhysicalObject , Service , Software , Sound , StillImage , Text)
+
 
