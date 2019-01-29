@@ -133,7 +133,7 @@
         }
 		
 	if (dcInput50 && dcInput50.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Title has a value!");
         } else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-50-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -141,7 +141,7 @@
         }
 	
 	if (dcInput40 && dcInput40.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Date has a value!");
         } else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-40-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -149,7 +149,7 @@
         }
 		
 	if (dcInput48 && dcInput48.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Source has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-48-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -157,7 +157,7 @@
         }
 		
         if (dcInput38 && dcInput38.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Coverage has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-38-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -165,7 +165,7 @@
         }
 		
         if (dcInput46 && dcInput46.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Relation has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-46-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -173,7 +173,7 @@
         }
         
 	if (dcInput47 && dcInput47.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Rights has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-47-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -181,7 +181,7 @@
         }
 		
         if (dcInput42 && dcInput42.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Format has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-42-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -189,7 +189,7 @@
         }
 		
         if (dcInput51 && dcInput51.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Type has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-51-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -197,7 +197,7 @@
         }
 		
         if (dcInput45 && dcInput45.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Publisher has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-45-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -205,7 +205,7 @@
         }
 		
         if (dcInput37 && dcInput37.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Contributor has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-37-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -213,7 +213,7 @@
         }
 		
         if (dcInput39 && dcInput39.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Creator has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-39-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -221,7 +221,7 @@
         }
 		
         if (dcInput41 && dcInput41.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Description has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-41-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
@@ -229,7 +229,7 @@
         }
 		
         if (dcInput49 && dcInput49.value) {
-            console.log("Dublin Core  has a value!");
+            console.log("Dublin Core Subject has a value!");
 	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-49-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
