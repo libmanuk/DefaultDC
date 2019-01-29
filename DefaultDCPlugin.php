@@ -58,14 +58,16 @@
     	<script>
 	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
 if ((state = "items") || (state = "items edit")) {
-        var myInput = document.getElementById("Elements-44-0-text");
-        if (myInput && myInput.value) {
-            console.log("My input has a value!");
+	
+        var dcInput44 = document.getElementById("Elements-44-0-text");
+        if (dcInput44 && dcInput44.value) {
+            console.log("Dublin Core Language field has a value!");
         } else  {
         window.addEventListener('load', function() {
         document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
         });
         }
+	
 } 
 
         </script>
