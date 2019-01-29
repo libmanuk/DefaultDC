@@ -13,6 +13,19 @@
  
     // Define Constants.
     define('DEFAULT_LANG_PAGE_STATEMENT', 'Eng');
+    define('DEFAULT_PUBLISHER_PAGE_STATEMENT', '');
+    define('DEFAULT_TITLE_PAGE_STATEMENT', '');
+    define('DEFAULT_CREATOR_PAGE_STATEMENT', '');
+    define('DEFAULT_CONTRIBUTOR_PAGE_STATEMENT', '');
+    define('DEFAULT_DESCRIPTION_PAGE_STATEMENT', '');
+    define('DEFAULT_TYPE_PAGE_STATEMENT', '');
+    define('DEFAULT_FORMAT_PAGE_STATEMENT', '');
+    define('DEFAULT_COVERAGE_PAGE_STATEMENT', '');
+    define('DEFAULT_SUBJECT_PAGE_STATEMENT', '');
+    define('DEFAULT_DATE_PAGE_STATEMENT', '');
+    define('DEFAULT_SOURCE_PAGE_STATEMENT', '');
+    define('DEFAULT_RELATION_PAGE_STATEMENT', '');
+    define('DEFAULT_RIGHTS_PAGE_STATEMENT', '');
  
     class DefaultDCPlugin extends Omeka_Plugin_AbstractPlugin
     {
