@@ -106,7 +106,7 @@
     }
     
     public function hookAdminFooter(){
-
+	?>
     	<script>
 	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
         if ((state = "items") || (state = "items edit")) {	
@@ -239,6 +239,6 @@
     
 	} 
         </script>
-
+	<?php
     }
 }
