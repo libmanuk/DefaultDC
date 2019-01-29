@@ -109,8 +109,7 @@
 
     	<script>
 	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
-        if ((state = "items") || (state = "items edit")) {
-	
+        if ((state = "items") || (state = "items edit")) {	
         var dcInput44 = document.getElementById("Elements-44-0-text");
         var dcInput50 = document.getElementById("Elements-50-0-text");
         var dcInput44 = document.getElementById("Elements-40-0-text");
@@ -127,39 +126,118 @@
         var dcInput44 = document.getElementById("Elements-49-0-text");
         if (dcInput44 && dcInput44.value) {
             console.log("Dublin Core Language field has a value!");
-	} else if (dcInput50 && dcInput50.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput40 && dcInput40.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput48 && dcInput48.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput38 && dcInput38.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput46 && dcInput46.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput47 && dcInput47.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput42 && dcInput42.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput51 && dcInput51.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput45 && dcInput45.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput37 && dcInput37.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput39 && dcInput39.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput41 && dcInput14.value) {
-            console.log("Dublin Core  has a value!");
-        } else if (dcInput49 && dcInput49.value) {
-            console.log("Dublin Core  has a value!");
-        } else {
+	} else {
         window.addEventListener('load', function() {
         document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
         });
         }
+		
+	if (dcInput50 && dcInput50.value) {
+            console.log("Dublin Core  has a value!");
+        } else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-50-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
 	
-        } 
+	if (dcInput40 && dcInput40.value) {
+            console.log("Dublin Core  has a value!");
+        } else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-40-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+	if (dcInput48 && dcInput48.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-48-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput38 && dcInput38.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-38-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput46 && dcInput46.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-46-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+        
+	if (dcInput47 && dcInput47.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-47-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput42 && dcInput42.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-42-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput51 && dcInput51.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-51-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput45 && dcInput45.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-45-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput37 && dcInput37.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-37-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput39 && dcInput39.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-39-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput41 && dcInput41.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-41-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+        if (dcInput49 && dcInput49.value) {
+            console.log("Dublin Core  has a value!");
+	} else {
+        window.addEventListener('load', function() {
+        document.getElementById("Elements-49-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+        });
+        }
+		
+    
+	} 
         </script>
 
     }
