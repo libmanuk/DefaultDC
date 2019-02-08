@@ -108,8 +108,8 @@
     public function hookAdminFooter(){
     ?>
     <script>
-	var state = document.getElementsByTagName("BODY")[0].getAttribute("class");
-        if ((state == "items") || (state == "items edit")) {	
+	$request = Zend_Controller_Front::getInstance()->getRequest();
+	if (!($controller == 'items' && ($action == 'edit' || $action == 'add'))) {	
         var dcInput44 = document.getElementById("Elements-44-0-text");
         var dcInput50 = document.getElementById("Elements-50-0-text");
         var dcInput40 = document.getElementById("Elements-40-0-text");
