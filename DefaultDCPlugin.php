@@ -107,7 +107,9 @@
     
     public function hookAdminFooter(){
 	$request = Zend_Controller_Front::getInstance()->getRequest();
-	if (!($controller == 'items' && ($action == 'edit' || $action == 'add'))) {	
+        $controller = $request->getControllerName();
+        $action = $request->getActionName();
+	if (($controller == 'items' && ($action == 'edit' || $action == 'add'))) {	
     ?>
     <script>
         var dcInput44 = document.getElementById("Elements-44-0-text");
