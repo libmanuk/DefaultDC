@@ -1,5 +1,5 @@
 <?php
-$lang_page_statement = get_option('default_lang_page_statement');
+$language_page_statement = get_option('default_language_page_statement');
 $contributor_page_statement = get_option('default_contributor_page_statement');
 $coverage_page_statement = get_option('default_coverage_page_statement');
 $creator_page_statement = get_option('default_creator_page_statement');
@@ -79,7 +79,7 @@ $view = get_view();
 <div class="field">
     <h3>Default Language</h3>
     <div class="inputs">
-        <?php echo $view->formTextarea('lang_page_statement', $lang_page_statement, array('rows' => '1', 'cols' => '30', 'class' => array('textinput'))); ?>
+        <?php echo $view->formTextarea('language_page_statement', $language_page_statement, array('rows' => '1', 'cols' => '30', 'class' => array('textinput'))); ?>
         <p class="explanation">
             Add or edit this Language entry.  This will be added to the Dublin Core Language field automatically when a new or exising record is saved, but if and only if that field is empty.  Consult https://www.ietf.org/rfc/rfc4646.txt for help with language standards.
         </p>
