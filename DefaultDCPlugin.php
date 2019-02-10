@@ -12,7 +12,7 @@
  */
  
     // Define Constants.
-    define('DEFAULT_LANG_PAGE_STATEMENT', '');
+    define('DEFAULT_LANGUAGE_PAGE_STATEMENT', '');
     define('DEFAULT_PUBLISHER_PAGE_STATEMENT', '');
     define('DEFAULT_TITLE_PAGE_STATEMENT', '');
     define('DEFAULT_CREATOR_PAGE_STATEMENT', '');
@@ -42,7 +42,7 @@
 	
     public function hookInstall()
     {
-        set_option('default_lang_page_statement', DEFAULT_LANG_PAGE_STATEMENT);
+        set_option('default_language_page_statement', DEFAULT_LANGUAGE_PAGE_STATEMENT);
         set_option('default_publisher_page_statement', DEFAULT_PUBLISHER_PAGE_STATEMENT);
         set_option('default_title_page_statement', DEFAULT_TITLE_PAGE_STATEMENT);
         set_option('default_creator_page_statement', DEFAULT_CREATOR_PAGE_STATEMENT);
@@ -60,7 +60,7 @@
     
     public function hookUninstall()
     {
-        delete_option('default_lang_page_statement');
+        delete_option('default_language_page_statement');
         delete_option('default_publisher_page_statement');
         delete_option('default_title_page_statement');
         delete_option('default_creator_page_statement');
@@ -89,7 +89,7 @@
     public function hookConfig($args)
     {
         $post = $args['post'];
-        set_option('default_lang_page_statement',$post['lang_page_statement']);
+        set_option('default_language_page_statement',$post['language_page_statement']);
         set_option('default_publisher_page_statement',$post['publisher_page_statement']);
         set_option('default_title_page_statement',$post['title_page_statement']);
         set_option('default_creator_page_statement',$post['creator_page_statement']);
@@ -130,11 +130,11 @@
         if (dcInput44 && dcInput44.value) {
             console.log("Dublin Core Language field has a value!");
 	    } else {
-	        var dclanguage = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+	        var dclanguage = "<?php echo get_option('default_language_page_statement'); // HTML ?>";
 	        if (!dclanguage) { console.log("Dublin Core Language field has no default!"); 
 	        } else if (dclanguage) {
                 window.addEventListener('load', function() {
-                document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_lang_page_statement'); // HTML ?>";
+                document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_language_page_statement'); // HTML ?>";
                 });
 	        }
         } 
