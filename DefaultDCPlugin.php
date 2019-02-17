@@ -12,6 +12,7 @@
  */
  
     // Define Constants.
+
     define('DEFAULT_LANGUAGE_PAGE_STATEMENT', '');
     define('DEFAULT_PUBLISHER_PAGE_STATEMENT', '');
     define('DEFAULT_TITLE_PAGE_STATEMENT', '');
@@ -31,6 +32,7 @@
     {
     
     // Define Hooks
+	    
     protected $_hooks = array(
         'install',
         'uninstall',
@@ -127,7 +129,7 @@
         var dcInput41 = document.getElementById("Elements-41-0-text");
         var dcInput49 = document.getElementById("Elements-49-0-text");
 
-        if (dcInput44 && dcInput44.value) {
+            if (dcInput44 && dcInput44.value) {
             console.log("Dublin Core Language field has a value!");
 	    } else {
 	        var dclanguage = "<?php echo get_option('default_language_page_statement'); // HTML ?>";
@@ -136,12 +138,12 @@
                 window.addEventListener('load', function() {
                 document.getElementById("Elements-44-0-text").value = "<?php echo get_option('default_language_page_statement'); // HTML ?>";
                 });
-	        }
-        } 
+	    }
+            } 
 		
 	    if (dcInput50 && dcInput50.value) {
             console.log("Dublin Core Title has a value!");
-        } else {
+            } else {
             var dctitle = "<?php echo get_option('default_title_page_statement'); // HTML ?>";
 	        if (!dctitle) { console.log("Dublin Core Title field has no default!"); 
 	        } else if (dctitle) {
@@ -149,7 +151,7 @@
                 document.getElementById("Elements-50-0-text").value = "<?php echo get_option('default_title_page_statement'); // HTML ?>";
                 });
             }
-        }
+            }
 	
 	    if (dcInput40 && dcInput40.value) {
             console.log("Dublin Core Date has a value!");
