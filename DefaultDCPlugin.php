@@ -177,7 +177,7 @@
             }
 	    }
 	
-        if (dcInput38 && dcInput38.value) {
+            if (dcInput38 && dcInput38.value) {
             console.log("Dublin Core Coverage has a value!");
 	    } else {
             var dccoverage = "<?php echo get_option('default_coverage_page_statement'); // HTML ?>";
@@ -189,7 +189,7 @@
             }
 	    }
 	
-        if (dcInput46 && dcInput46.value) {
+            if (dcInput46 && dcInput46.value) {
             console.log("Dublin Core Relation has a value!");
 	    } else {
             var dcrelation = "<?php echo get_option('default_relation_page_statement'); // HTML ?>";
@@ -213,7 +213,7 @@
             }
 	    }
 	
-        if (dcInput42 && dcInput42.value) {
+            if (dcInput42 && dcInput42.value) {
             console.log("Dublin Core Format has a value!");
 	    } else {
             var dcformat = "<?php echo get_option('default_format_page_statement'); // HTML ?>";
@@ -225,7 +225,7 @@
             }
 	    }
 	
-        if (dcInput51 && dcInput51.value) {
+            if (dcInput51 && dcInput51.value) {
             console.log("Dublin Core Type has a value!");
 	    } else {
             var dctype = "<?php echo get_option('default_type_page_statement'); // HTML ?>";
@@ -237,7 +237,7 @@
             }
 	    }
 	
-        if (dcInput45 && dcInput45.value) {
+            if (dcInput45 && dcInput45.value) {
             console.log("Dublin Core Publisher has a value!");
 	    } else {
             var dcpublisher = "<?php echo get_option('default_publisher_page_statement'); // HTML ?>";
@@ -249,7 +249,7 @@
             }
 	    }
 	
-        if (dcInput37 && dcInput37.value) {
+            if (dcInput37 && dcInput37.value) {
             console.log("Dublin Core Contributor has a value!");
 	    } else {
             var dccontributor = "<?php echo get_option('default_contributor_page_statement'); // HTML ?>";
@@ -261,7 +261,7 @@
             }
 	    }
 	
-        if (dcInput39 && dcInput39.value) {
+            if (dcInput39 && dcInput39.value) {
             console.log("Dublin Core Creator has a value!");
 	    } else {
             var dccreator = "<?php echo get_option('default_creator_page_statement'); // HTML ?>";
@@ -273,7 +273,7 @@
             }
 	    }
 	
-        if (dcInput41 && dcInput41.value) {
+            if (dcInput41 && dcInput41.value) {
             console.log("Dublin Core Description has a value!");
 	    } else {
             var dcdescription = "<?php echo get_option('default_description_page_statement'); // HTML ?>";
@@ -285,7 +285,7 @@
             }
 	    }
 	
-        if (dcInput49 && dcInput49.value) {
+            if (dcInput49 && dcInput49.value) {
             console.log("Dublin Core Subject has a value!");
 	    } else {
             var dcsubject = "<?php echo get_option('default_subject_page_statement'); // HTML ?>";
