@@ -21,6 +21,7 @@
     define('DEFAULT_DESCRIPTION_PAGE_STATEMENT', '');
     define('DEFAULT_TYPE_PAGE_STATEMENT', '');
     define('DEFAULT_FORMAT_PAGE_STATEMENT', '');
+    define('DEFAULT_IDENTIFIER_PAGE_STATEMENT', '');
     define('DEFAULT_COVERAGE_PAGE_STATEMENT', '');
     define('DEFAULT_SUBJECT_PAGE_STATEMENT', '');
     define('DEFAULT_DATE_PAGE_STATEMENT', '');
@@ -52,6 +53,7 @@
         set_option('default_description_page_statement', DEFAULT_DESCRIPTION_PAGE_STATEMENT);
         set_option('default_type_page_statement', DEFAULT_TYPE_PAGE_STATEMENT);
         set_option('default_format_page_statement', DEFAULT_FORMAT_PAGE_STATEMENT);
+        set_option('default_identifier_page_statement', DEFAULT_IDENTIFIER_PAGE_STATEMENT);
         set_option('default_coverage_page_statement', DEFAULT_COVERAGE_PAGE_STATEMENT);
         set_option('default_subject_page_statement', DEFAULT_SUBJECT_PAGE_STATEMENT);
         set_option('default_date_page_statement', DEFAULT_DATE_PAGE_STATEMENT);
@@ -70,6 +72,7 @@
         delete_option('default_description_page_statement');
         delete_option('default_type_page_statement');
         delete_option('default_format_page_statement');
+        delete_option('default_identifier_page_statement');
         delete_option('default_coverage_page_statement');
         delete_option('default_subject_page_statement');
         delete_option('default_date_page_statement');
@@ -99,6 +102,7 @@
         set_option('default_description_page_statement',$post['description_page_statement']);
         set_option('default_type_page_statement',$post['type_page_statement']);
         set_option('default_format_page_statement',$post['format_page_statement']);
+        set_option('default_identifier_page_statement',$post['identifier_page_statement']);
         set_option('default_coverage_page_statement',$post['coverage_page_statement']);
         set_option('default_subject_page_statement',$post['subject_page_statement']);
         set_option('default_date_page_statement',$post['date_page_statement']);
@@ -122,6 +126,7 @@
         var dcInput46 = document.getElementById("Elements-46-0-text");
         var dcInput47 = document.getElementById("Elements-47-0-text");
         var dcInput42 = document.getElementById("Elements-42-0-text");
+        var dcInput43 = document.getElementById("Elements-43-0-text");
         var dcInput51 = document.getElementById("Elements-51-0-text");
         var dcInput45 = document.getElementById("Elements-45-0-text");
         var dcInput37 = document.getElementById("Elements-37-0-text");
@@ -221,6 +226,18 @@
 	        } else if (dcformat) {
                 window.addEventListener('load', function() {
                 document.getElementById("Elements-42-0-text").value = "<?php echo get_option('default_format_page_statement'); // HTML ?>";
+                });
+            }
+	    }
+	    
+	    if (dcInput43 && dcInput43.value) {
+            console.log("Dublin Core Identifier has a value!");
+	    } else {
+            var dcidentifier = "<?php echo get_option('default_identifier_page_statement'); // HTML ?>";
+	        if (!dcformat) { console.log("Dublin Core Identifier field has no default!"); 
+	        } else if (dcidentifier) {
+                window.addEventListener('load', function() {
+                document.getElementById("Elements-43-0-text").value = "<?php echo get_option('default_identifier_page_statement'); // HTML ?>";
                 });
             }
 	    }
