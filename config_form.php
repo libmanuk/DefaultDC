@@ -6,6 +6,7 @@ $creator_page_statement = get_option('default_creator_page_statement');
 $date_page_statement = get_option('default_date_page_statement');
 $description_page_statement = get_option('default_description_page_statement');
 $format_page_statement = get_option('default_format_page_statement');
+$identifier_page_statement = get_option('default_identifier_page_statement');
 $publisher_page_statement = get_option('default_publisher_page_statement');
 $relation_page_statement = get_option('default_relation_page_statement');
 $rights_page_statement = get_option('default_rights_page_statement');
@@ -72,6 +73,16 @@ $view = get_view();
         <?php echo $view->formTextarea('format_page_statement', $format_page_statement, array('rows' => '1', 'cols' => '30', 'class' => array('textinput'))); ?>
         <p class="explanation">
             Add or edit this Format entry.  This will be added to the Dublin Core Format field automatically when a new or exising record is saved, but if and only if that field is empty.  Consult https://www.iana.org/assignments/media-types/media-types.xhtml for help with media types.
+        </p>
+    </div>
+</div>
+
+<div class="field">
+    <h3>Default Identifier</h3>
+    <div class="inputs">
+        <?php echo $view->formTextarea('identifier_page_statement', $identifier_page_statement, array('rows' => '1', 'cols' => '30', 'class' => array('textinput'))); ?>
+        <p class="explanation">
+            Add or edit this Identifier entry.  This will be added to the Dublin Core Identifier field automatically when a new or exising record is saved, but if and only if that field is empty.
         </p>
     </div>
 </div>
