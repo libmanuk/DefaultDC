@@ -43,8 +43,6 @@
         'config_form',
 	'admin_head'
 	);
-	    
-    // protected $_filters = array('admin_navigation_main');
 	
     public function hookInstall()
     {
@@ -222,7 +220,7 @@
 				}
             }
 	
-        if (dcInput38 && dcInput38.value) {
+            if (dcInput38 && dcInput38.value) {
             console.log("Dublin Core Coverage has a value!");
             } else {
 			<?php $dccoverage = get_option('default_coverage_page_statement');
@@ -243,7 +241,7 @@
 				}
             }
 	
-        if (dcInput46 && dcInput46.value) {
+            if (dcInput46 && dcInput46.value) {
             console.log("Dublin Core Relation has a value!");
             } else {
 			<?php $dcrelation = get_option('default_relation_page_statement');
@@ -285,7 +283,7 @@
             }
 	    }
 	
-        if (dcInput42 && dcInput42.value) {
+            if (dcInput42 && dcInput42.value) {
             console.log("Dublin Core Format has a value!");
             } else {
 			<?php $dcformat = get_option('default_format_page_statement');
@@ -327,7 +325,7 @@
 				}
             }
 	
-        if (dcInput51 && dcInput51.value) {
+            if (dcInput51 && dcInput51.value) {
             console.log("Dublin Core Type has a value!");
             } else {
 			<?php $dctype = get_option('default_type_page_statement');
@@ -348,7 +346,7 @@
 				}
 			}
 	
-        if (dcInput45 && dcInput45.value) {
+            if (dcInput45 && dcInput45.value) {
             console.log("Dublin Core Publisher has a value!");
             } else {
 			<?php $dcpublisher = get_option('default_publisher_page_statement');
@@ -369,7 +367,7 @@
 				}
             }
 	
-        if (dcInput37 && dcInput37.value) {
+            if (dcInput37 && dcInput37.value) {
             console.log("Dublin Core Contributor has a value!");
             } else {
 			<?php $dccontributor = get_option('default_contributor_page_statement');
@@ -390,7 +388,7 @@
 				}
             }
 	
-        if (dcInput39 && dcInput39.value) {
+            if (dcInput39 && dcInput39.value) {
             console.log("Dublin Core Creator has a value!");
             } else {
 			<?php $dccreator = get_option('default_creator_page_statement');
@@ -411,7 +409,7 @@
 				}
             }
 	
-        if (dcInput41 && dcInput41.value) {
+            if (dcInput41 && dcInput41.value) {
             console.log("Dublin Core Description has a value!");
             } else {
 			<?php $dcdescription = get_option('default_description_page_statement');
@@ -432,7 +430,7 @@
 				}
             }
 	
-        if (dcInput49 && dcInput49.value) {
+            if (dcInput49 && dcInput49.value) {
             console.log("Dublin Core Subject has a value!");
             } else {
 			<?php $dcsubject = get_option('default_subject_page_statement');
@@ -457,10 +455,12 @@
         <?php
 	}
     }
+	    
 	public function hookAdminHead($args)
-    {
+    	{
 		queue_js_file('vendor/tinymce/tinymce.min');
-    }
+    	}
+	    
 	/**
      * @param string $string
      * @return boolean
@@ -473,15 +473,5 @@
 			return false;
 		}
 	}
-	 /**
-     * Add the Default DC navigation link.
-     
-    public function filterAdminNavigationMain($nav)
-    {
-        $nav[] = array(
-            'label' => __('Default DC'),
-            'uri' => url('default-dc')
-        );
-        return $nav;
-    }*/
+
 }
