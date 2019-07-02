@@ -37,13 +37,14 @@
     protected $_hooks = array(
         'install',
         'uninstall',
-		'admin_footer',
-		'define_routes',
-		'config',
+	'admin_footer',
+	'define_routes',
+	'config',
         'config_form',
-		'admin_head'
+	'admin_head'
 	);
-	//protected $_filters = array('admin_navigation_main');
+	    
+    // protected $_filters = array('admin_navigation_main');
 	
     public function hookInstall()
     {
